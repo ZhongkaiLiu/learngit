@@ -5,3 +5,7 @@ Git Notes:
 2. Add to stage: $ git add <filename>
 
 3. Commit: $ git commit -m "comments here"
+
+4. Check status: $ git status
+
+
