@@ -10,3 +10,14 @@ Git Notes:
 
 5. Compare difference: $ git diff
 
+6. Change version: $ git reset --hard <commit_id>
+   <commit_id> can be 
+   HEAD^ for previous 1st commit
+   HEAD^^ for previous 2nd commit
+   ...
+   HEAD~100 for previous 100th commit
+
+7. Check commit log: $ git log, to check the previous <commit_id>
+
+8. Check command log: $ git reflog, to know the future <commit_id>
+
