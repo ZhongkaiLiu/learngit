@@ -29,3 +29,11 @@ Git Notes:
 10. Git tracks changes of files, not files.
     Only changes that are staged ($git add) can be commited to branch
 
+11. Discard changes in working directory: $ git restore <filename>
+
+12. Unstage changes in stage: $ git restore --staged <filename>
+
+13. To completely discard changes in staged change (i.e. go to committed version):
+    First, unstage changes: $ git restore --staged <filename>
+    Second, discard changes in work dir: $ git restore <filename>
+
