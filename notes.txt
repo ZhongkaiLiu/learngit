@@ -8,7 +8,10 @@ Git Notes:
 
 4. Check status: $ git status
 
-5. Compare difference: $ git diff
+5. Compare difference between work dir and stage: $ git diff
+   Compare difference between work dir and HEAD: $ git diff HEAD
+   Compare difference between work dir and stage for a specific file: $ git diff <filename>
+   Compare difference between work dir and HEAD for a specific files: $ git diff HEAD -- <filename>   
 
 6. Change version: $ git reset --hard <commit_id>
    <commit_id> can be 
@@ -23,4 +26,6 @@ Git Notes:
 
 9. Working Directory => Stage => Branch(master)
 
+10. Git tracks changes of files, not files.
+    Only changes that are staged ($git add) can be commited to branch
 
