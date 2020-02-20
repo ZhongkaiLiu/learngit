@@ -8,4 +8,5 @@ Git Notes:
 
 4. Check status: $ git status
 
+5. Compare difference: $ git diff
 
