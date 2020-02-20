@@ -21,3 +21,6 @@ Git Notes:
 
 8. Check command log: $ git reflog, to know the future <commit_id>
 
+9. Working Directory => Stage
+
+
