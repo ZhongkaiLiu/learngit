@@ -37,3 +37,12 @@ Git Notes:
     First, unstage changes: $ git restore --staged <filename>
     Second, discard changes in work dir: $ git restore <filename>
 
+14. Delete files: 
+    1. remove file, then update stage:
+        1. $ rm <filename>
+        2. $ git add/rm <filename>
+	3. $ git commit -m "comments here"
+    2. remove file and update stage at the same time
+	1. $ git rm <filename>
+	2. $ git commit -m "comments here"
+
