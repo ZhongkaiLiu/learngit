@@ -62,7 +62,8 @@ Git Notes:
     6. Delete branch: $ git branch -d <branch_name>
 
 18. Branch Merge Conflict:
-    some conflict there
+    1. when merge conflict occurs, open the file and fix the conflict
+    2. show merge graph: $ git log --graph --pretty=oneline --abbrev-commit
 
 
 
