@@ -61,7 +61,8 @@ Git Notes:
     5. Merge other branch to current branch: $ git merge <branch_name>
     6. Delete branch: $ git branch -d <branch_name>
 
-
+18. Branch Merge Conflict:
+    some conflict here
 
 
 
