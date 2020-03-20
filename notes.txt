@@ -86,7 +86,7 @@ Git Notes:
     5. restore the stash and remove it: $ git stash pop
     6. operate on a certain stash: $ git stash apply stash@{0}
 
-
+23. Apply same commit from other branch to current branch to reduce repeated work: $ git cherry-pick <commit_id>
 
 
 
