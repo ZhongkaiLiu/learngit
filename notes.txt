@@ -65,7 +65,7 @@ Git Notes:
     1. when merge conflict occurs, open the file and fix the conflict
     2. show merge graph: $ git log --graph --pretty=oneline --abbrev-commit
 
-
+19. Branch Merge No Fast Forward: $ git merge --no-ff -m "merge branch dev to current branch without fast forward" dev
 
 
 
