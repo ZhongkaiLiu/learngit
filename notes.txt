@@ -67,5 +67,12 @@ Git Notes:
 
 19. Branch Merge No Fast Forward: $ git merge --no-ff -m "merge branch dev to current branch without fast forward" dev
 
+20. Branch Management:
+    1. master should be used for stable versions
+    2. dev is not stable, used for all members to develop
+    3. each team member should have its own branch to develop
+    4. merge personal dev branch to shared dev branch
+    5. merge dev branch to master branch to release new stable version
+
 
 
