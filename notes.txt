@@ -74,5 +74,17 @@ Git Notes:
     4. merge personal dev branch to shared dev branch
     5. merge dev branch to master branch to release new stable version
 
+21. Bug Branch:
+    1. to fix a bug, create and switch to a new bug branch, then fix the bug, then merge bug branch back, then delete the bug branch
+    2. when there are some uncommited changes on dev branch, we must first stash them, then we can switch branch
+
+22. Stash:
+    1. stash current work dir and make the work dir clean: $ git stash
+    2. view the stash list: $ git stash list
+    3. restore the stash back: $ git stash apply
+    4. remove one stash: $ git stash drop
+    5. restore the stash and remove it: $ git stash pop
+    6. operate on a certain stash: $ git stash apply stash@{0}
+
 
 
