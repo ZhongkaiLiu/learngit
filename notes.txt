@@ -72,7 +72,7 @@ Git Notes:
     2. dev is not stable, used for all members to develop
     3. each team member should have its own branch to develop
     4. merge personal dev branch to shared dev branch
-    5. merge dev branch to master branch to release new stable version
+    5. merge dev branch to master branch to release new stable versions
 
 
 
