@@ -93,4 +93,20 @@ Git Notes:
     1. the branch is not fully merged, so it cannot be deleted by: $ git branch -d <branch_name>
     2. $ git branch -D <branch_name>
 
+25. Remote:
+    1. check remote repo: $ git remote
+    2. check remote repo with more details: $ git remote -v
+
+26. Remote: push
+    1. push local repo to remote: $ git push <remote_name> <branch_name> (e.g. $ git push origin master)
+
+27. Remote: clone remote branch to local:
+    1. git checkout -b <branch_name> <remote/branch_name> (e.g. $ git checkout -b dev origin/dev)
+
+28. Remote: pull
+
+
+
+
+
 
