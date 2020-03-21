@@ -104,7 +104,9 @@ Git Notes:
     1. git checkout -b <branch_name> <remote/branch_name> (e.g. $ git checkout -b dev origin/dev)
 
 28. Remote: pull
-
+    1. pull remote branch to local: $ git pull
+    2. when try to pull, but no tracking information for current branch: $ git pull <remote> <branch> (e.g. $ git pull origin dev)
+    3. set tracking information for the branch: $ git branch --set-upstream-to=<remote/branch> <branch> (e.g. $ git branch --set-upstream-to=origin/dev dev)
 
 
 
