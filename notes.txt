@@ -108,6 +108,12 @@ Git Notes:
     2. when try to pull, but no tracking information for current branch: $ git pull <remote> <branch> (e.g. $ git pull origin dev)
     3. set tracking information for the branch: $ git branch --set-upstream-to=<remote/branch> <branch> (e.g. $ git branch --set-upstream-to=origin/dev dev)
 
+29. Collaborations:
+    1. push local work to remote: $ git push <remote> <branch_name>
+    2. if push failed, then pull remote to local: $ git pull (if pull failed, set tracking information)
+    3. fix the conflicts, and merge
+    4. push again: $ git push <remote> <branch_name>
+    
 
 
 
