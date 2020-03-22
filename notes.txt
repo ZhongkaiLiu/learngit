@@ -121,5 +121,9 @@ Git Notes:
     1. make a tag to a commit: $ git tag <tag_name> <commit_id> (default <commit_id> is current HEAD)
     2. make a tag to a commit with message: $ git tag -a <tag_name> -m "message there" <commit_id>
     3. show all tags: $ git tag
+    4. delete local tags: $ git tag -d <tag_name>
+    5. push a tag to remote: $ git push origin <tag_name>
+    6. push all tags to remote: $ git push origin --tags
+    7. delete a remote tags: $ git push :refs/tags/<tag_name>
 
 
