@@ -117,5 +117,9 @@ Git Notes:
 30. Rebase:    
     1. use rebase to make multiple log branches to single one log branch: $ git rebase
 
+31. Tag:
+    1. make a tag to a commit: $ git tag <tag_name> <commit_id> (default <commit_id> is current HEAD)
+    2. make a tag to a commit with message: $ git tag -a <tag_name> -m "message there" <commit_id>
+    3. show all tags: $ git tag
 
 
