@@ -115,7 +115,7 @@ Git Notes:
     4. push again: $ git push <remote> <branch_name>
 
 30. Rebase:    
-
+    1. use rebase to make multiple log branches to single one log branch: $ git rebase
 
 
 
