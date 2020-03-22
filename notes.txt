@@ -113,7 +113,8 @@ Git Notes:
     2. if push failed, then pull remote to local: $ git pull (if pull failed, set tracking information)
     3. fix the conflicts, and merge
     4. push again: $ git push <remote> <branch_name>
-    
+
+30. Rebase:    
 
 
 
