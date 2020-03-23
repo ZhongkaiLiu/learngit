@@ -135,4 +135,10 @@ Git Notes:
 33. git config:
     1. set color hightlight: $ git config --global color.ui true
 
+34. git ignore:
+    1. use .gitignore to indicate which files should be ignored by git
+    2. list ignored files in .gitignore (use *.filetype to ignore all files of this type)
+    3. add a ignored file to git: $ git add -f <filename>
+    4. check which rule in .gitignore that make this file ignored: $ git check-ignore -v <filename> 
+
 
