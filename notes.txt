@@ -127,3 +127,9 @@ Git Notes:
     7. delete a remote tags: $ git push :refs/tags/<tag_name>
     8. we can reset to a commit using tag: $ git reset --hard <tag_name>
 
+32. GitHub:
+    1. we can fork any open repo
+    2. we can read and write the forked repo
+    3. make a pull request to the original repo to contribute our work
+
+
